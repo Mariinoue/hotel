@@ -38,14 +38,18 @@
     href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Kanit:wght@300&family=Lobster&family=Oswald:wght@200&family=Raleway:wght@100&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- o arquivo css que fica mais próximo das tags é que estiliza com prioridade. No caso
+  href="css/hotel.css" tem prioridade.  -->
   <link rel="stylesheet" href="css/hotel.css">
+
   <title>Nova Bossa Hotel</title>
 </head>
 
 <body class="container-fluid">
   <header>
     <!-- Início da barra de navegação -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-nav-color navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Hotel</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -65,14 +69,14 @@
                 aria-expanded="false">
                 Acomodação
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" tabindex="4" href="standard.html">Standard</a></li>
-                <li><a class="dropdown-item" tabindex="5" href="double.html">Double</a></li>
-                <li><a class="dropdown-item" tabindex="6" href="master.html">Master</a></li>
+              <ul class="dropdown-menu bg-nav-color ">
+                <li><a class="dropdown-item txt-nav-color" tabindex="4" href="standard.html">Standard</a></li>
+                <li><a class="dropdown-item txt-nav-color" tabindex="5" href="double.html">Double</a></li>
+                <li><a class="dropdown-item txt-nav-color" tabindex="6" href="master.html">Master</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" tabindex="7" href="presidencial.html">Presidencial</a></li>
+                <li><a class="dropdown-item txt-nav-color" tabindex="7" href="presidencial.html">Presidencial</a></li>
               </ul>
             </li>
             <li class="nav-item">

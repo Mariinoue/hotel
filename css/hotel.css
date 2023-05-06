@@ -11,3 +11,55 @@ body{
     width: 100vw;
     padding: 0 !important;
 }
+
+    footer .card{
+    background-color: #9b8760 !important;
+    border-radius: 0;
+}
+
+/* 
+    vai aplicar a cor e todo o lugar de uma vez
+    ponto nengativo: vai ter dois processamento(footer e card)
+    footer, footer .card{
+    background-color: #9b8760 !important;
+    }
+
+    melhor opção
+    vai deixar as bordas quadradas. 
+    Melhor pois afeta um elemento
+    footer .card{
+    background-color: #9b8760 !important;
+    border-radius: 0;
+} */
+
+footer .card-header{
+    height: 30px ;
+    background-color: #a19887 !important;
+    text-align: center;
+    border-radius: 0;
+
+}
+
+footer .card-header a{
+    text-decoration: none;
+    color: rgb(59, 55, 55);
+    margin: 0 20px;
+    font-size:15px;
+}
+
+footer .card-header a:hover{
+    
+    color: rgb(46, 44, 42);
+}
+
+footer .card-body{
+    height: 150px ;
+    text-align: center;
+    color: rgba(255,255,255,0.8) !important;
+    /* padding: 0 450px ; */
+}
+
+footer .card-body a{
+    color: rgba(255,255,255,0.8) !important;
+    text-decoration: none;
+}

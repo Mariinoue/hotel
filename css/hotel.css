@@ -64,6 +64,8 @@ footer .card-body a{
     text-decoration: none;
 }
 
+
+
 main .row{
     padding:0 100px !important
 }
@@ -71,3 +73,38 @@ main .row{
 main h2{
     margin: 30px 100px 10px 100px;
 }
+
+.no-border{
+     border: 0px; 
+    border-color: darkblue;
+}
+
+main .card-loby {
+    margin: 0px !important;
+    width: 550px;
+    height: 400px;
+    padding: 16px;
+}
+
+.card-hotel-text{
+    padding: 0px !important;
+}
+
+
+main .card-hotel-info{
+    margin: 50px 0px;
+    justify-content: center;
+} 
+
+.mapa-box {
+    margin: 50px 10px;
+}
+
+.mapa {
+    margin: 0px !important;
+    width: 1250px;
+    height: 400px; 
+    
+}
+    
+ 

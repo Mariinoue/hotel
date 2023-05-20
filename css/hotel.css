@@ -1,18 +1,18 @@
-.bg-nav-color{
+.bg-nav-color {
     background-color: #AFA490;
 }
 
-.txt-nav-color{
+.txt-nav-color {
     color: rgb(75, 50, 4);
 }
 
-body{
-    margin:0 !important;
+body {
+    margin: 0 !important;
     width: 100vw;
     padding: 0 !important;
 }
 
-    footer .card{
+footer .card {
     background-color: #9b8760 !important;
     border-radius: 0;
 }
@@ -32,50 +32,50 @@ body{
     border-radius: 0;
 } */
 
-footer .card-header{
-    height: 30px ;
+footer .card-header {
+    height: 30px;
     background-color: #a19887 !important;
     text-align: center;
     border-radius: 0;
 
 }
 
-footer .card-header a{
+footer .card-header a {
     text-decoration: none;
     color: rgb(59, 55, 55);
     margin: 0 20px;
-    font-size:15px;
+    font-size: 15px;
 }
 
-footer .card-header a:hover{
-    
+footer .card-header a:hover {
+
     color: rgb(46, 44, 42);
 }
 
-footer .card-body{
-    height: 150px ;
+footer .card-body {
+    height: 150px;
     text-align: center;
-    color: rgba(255,255,255,0.8) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
     /* padding: 0 450px ; */
 }
 
-footer .card-body a{
-    color: rgba(255,255,255,0.8) !important;
+footer .card-body a {
+    color: rgba(255, 255, 255, 0.8) !important;
     text-decoration: none;
 }
 
 
 
-main .row{
-    padding:0 100px !important
+main .row {
+    padding: 0 100px !important
 }
 
-main h2{
+main h2 {
     margin: 30px 100px 10px 100px;
 }
 
-.no-border{
-     border: 0px; 
+.no-border {
+    border: 0px;
     border-color: darkblue;
 }
 
@@ -86,15 +86,15 @@ main .card-loby {
     padding: 16px;
 }
 
-.card-hotel-text{
+.card-hotel-text {
     padding: 0px !important;
 }
 
 
-main .card-hotel-info{
+main .card-hotel-info {
     margin: 50px 0px;
     justify-content: center;
-} 
+}
 
 .mapa-box {
     margin: 50px 10px;
@@ -103,8 +103,66 @@ main .card-hotel-info{
 .mapa {
     margin: 0px !important;
     width: 1250px;
-    height: 400px; 
-    
+    height: 400px;
+
 }
-    
- 
+
+main table,
+main tr,
+main tr td,
+main tr th {
+    border: 1px solid lightgrey;
+}
+
+main table td {
+    padding: 15px !important;
+
+}
+
+main table th {
+    text-align: center;
+}
+
+main table td h3 {
+    text-align: center;
+}
+
+main table td p {
+    text-align: center;
+}
+
+
+main table {
+    margin: 50px auto 100px auto;
+}
+
+main table tr {
+    background-color: #eee;
+    transition: ease 0.5s;
+}
+
+main table tr:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.tarifas {
+    background-color: lightslategrey;
+
+}
+
+main form{
+    margin: 50px auto !important;
+    width: 80%;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+main form textarea{
+    resize: none;
+}
+
+main form button{
+    display: block !important;
+    margin: 20px auto !important;
+}

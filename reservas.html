@@ -149,6 +149,115 @@
     <!-- Fim do Carousel -->
   </header>
   <main>
+
+    <h3>
+      Faça a sua reserva
+    </h3>
+
+    <form class="row g-3">
+
+
+
+      <div class="col-3">
+        <label for="data-checkin" class="form-label">Data Check-in</label>
+        <input type="date" class="form-control" id="data-checkin">
+      </div>
+      <div class="col-3">
+        <label for="hora-checkin" class="form-label">Hora Check-in</label>
+        <input type="time" class="form-control" id="hora-checkin">
+      </div>
+
+      <div class="col-3">
+        <label for="data-checkout" class="form-label">Data Check-out</label>
+        <input type="date" class="form-control" id="data-checkout">
+      </div>
+      <div class="col-3">
+        <label for="hora-checkout" class="form-label">Hora Check-out</label>
+        <input type="time" class="form-control" id="hora-checkout">
+      </div>
+
+      <div class="col-5">
+        <label for="Acomodações" class="form-label">Acomodações</label>
+        <select id="Acomodações" class="form-select">
+          <option selected>Selecione</option>
+          <option value="Single">Single</option>
+          <option value="Double">Double</option>
+          <option value="Master">Master</option>
+          <option value="Presidencial">Presidencial</option>
+        </select>
+      </div>
+
+      <div class="col-3">
+        <label for="Pagamento" class="form-label">Pagamento</label>
+        <select id="Pagamento" class="form-select">
+          <option selected>Selecione</option>
+          <option value="Pix">Pix</option>
+          <option value="Débito">Débito</option>
+          <option value="Crédito">Crédito</option>
+          <option value="Transferência">Transferência</option>
+          <option value="Boleto">Boleto</option>
+        </select>
+      </div>
+
+      <div class="col-2">
+        <label for="Adultos" class="form-label">Adultos</label>
+        <select id="Adultos" class="form-select">
+          <option selected>Selecione</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+
+      <div class="col-2">
+        <label for="Crianças" class="form-label">Crianças</label>
+        <select id="Crianças" class="form-select">
+          <option selected>Selecione</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+
+    
+
+
+      <div class="col-5">
+        <label for="Name Completo" class="form-label">Name Completo</label>
+        <input type="text" class="form-control" id="Name Completo" required>
+      </div>
+
+      <div class="col-5">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="Email" required>
+      </div>
+
+      <div class="col-2">
+        <label for="Telefone" class="form-label">Telefone</label>
+        <input type="tel" class="form-control" id="Telefone">
+      </div>
+
+
+      <div class="col-12">
+        
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Informações adicionais</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+        
+      </div>
+
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Reservar</button>
+      </div>
+
+
+    </form>
+
+
   </main>
   <footer>
 
